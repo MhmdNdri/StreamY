@@ -1,6 +1,7 @@
 import './styles/App.css';
 import { BrowserRouter, Route } from "react-router-dom"
 import Header from './components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import StreamCreate from './components/streams/StreamCreate'
 import StreamDelete from './components/streams/StreamDelete'
 import StreamEdit from './components/streams/StreamEdit'
